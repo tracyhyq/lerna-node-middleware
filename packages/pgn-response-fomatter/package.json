@@ -1,0 +1,36 @@
+{
+  "name": "@fe/pgn-response-fomatter",
+  "version": "1.0.25",
+  "description": "格式化http请求体数据",
+  "author": "heyanqiu@yzw.cn <heyanqiu@yzw.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://172.16.0.132:18081/repository/npm-lab/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@cmisgitlab01:fe/pangoo-node-middleware.git"
+  },
+  "scripts": {
+    "compile": "tsc -p ../../tsconfig.json"
+  },
+  "dependencies": {
+    "@fe/pgn-logger": "^1.0.25",
+    "@types/koa": "^2.11.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}

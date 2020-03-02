@@ -1,0 +1,12 @@
+.idea
+.vscode
+.project
+
+*.txt
+*.js
+
+node_modules
+*.log
+package-lock.json
+
+

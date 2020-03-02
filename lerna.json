@@ -1,0 +1,13 @@
+{
+  "command": {
+    "publish": {  
+      "message": "chore(release): publish",
+      "registry": "http://172.16.0.132:18081/repository/npm-lib/",
+      "no-verify-access": true
+    }
+  },
+  "packages": [  
+    "packages/*"
+  ],
+  "version": "independent" 
+}
